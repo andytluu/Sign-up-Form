@@ -1,4 +1,17 @@
-img{
-    height: auto;
-    width: auto;
+
+body{
+    display: flex;
+}
+
+#sidebar{
+    background-image: url(spicyChicken.jpg);
+    height: 100vh;
+    width: 50vw;
+    top: 0;
+}
+
+#logo{
+    text-align: center;
+    margin-top: calc(100vh/4);
+    font-size: 2rem;
 }
