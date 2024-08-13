@@ -22,7 +22,13 @@ body{
 }
 
 #text{
+    outline: solid blue 1px;
     flex-basis: 100%;
-    
     font-size: 2rem;
+}
+
+.row{
+    display: flex;
+    gap: 10px;
+    outline: solid red 1px;
 }
