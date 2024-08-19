@@ -29,6 +29,6 @@ body{
 
 .row{
     display: flex;
-    gap: 10px;
+    gap: 2rem 10%;
     outline: solid red 1px;
 }
