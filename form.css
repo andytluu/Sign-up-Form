@@ -22,13 +22,30 @@ body{
 }
 
 #text{
-    outline: solid blue 1px;
+    
     flex-basis: 100%;
     font-size: 2rem;
+    margin-left:1rem;
 }
 
 .row{
     display: flex;
     gap: 2rem 10%;
-    outline: solid red 1px;
+   
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+    margin-left: 1rem;
+    gap: 10px;
+} 
+
+input[type="submit"]{
+    margin-top:1rem;
+}
+
+.top-label{
+    display: flex;
+    flex-direction: column;
 }
